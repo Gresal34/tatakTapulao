@@ -53,7 +53,13 @@ const UserSchema = new mongoose.Schema({
     },recipientAddressTwo:{
         type:String,
         require:true
-    },recipientPostalCode:{
+    },recipientCityTown:{
+        type:String,
+        require:true
+    },recipientProvince:{
+        type:String,
+        require:true
+    },recipienCountry:{
         type:String,
         require:true
     },recipientContact:{
